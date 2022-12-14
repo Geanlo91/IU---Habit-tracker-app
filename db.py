@@ -13,8 +13,7 @@ def get_db(name="main.db"):
     return db
 
 
-def create_tables():
-    db = get_db()
+def create_tables(db):
     cur = db.cursor()
     cur.execute("""CREATE TABLE IF NOT EXISTS habits(
         Habit_name TEXT PRIMARY KEY,
