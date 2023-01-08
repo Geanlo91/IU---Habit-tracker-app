@@ -8,7 +8,7 @@ Backend coding for a Habit tracking app
 
 ## Installation
 
-'''shell 
+'''
 pip install -r requirements.txt 
 '''
 
@@ -24,6 +24,6 @@ and follow instructions on screen.
 
 ## Tests
 
-'''shell
+'''
 pytest .
 '''
