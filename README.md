@@ -1,9 +1,8 @@
-# My tracker App / Project
+# Habit tracker app backend - IU
 
-Decsription
+Users create and track habits to break or build.
 
-
-##  What is it 
+##  What is it ?
 
 Backend coding for a Habit tracking app
 
