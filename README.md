@@ -1,6 +1,6 @@
 # Habit tracker app backend - IU
 
-Users create and track habits to break or build.
+Users create and track habits to break or learn to continue.
 
 ##  What is it ?
 
