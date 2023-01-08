@@ -5,7 +5,7 @@ Decsription
 
 ##  What is it 
 
-blah blah
+Backend coding for a Habit tracking app
 
 ## Installation
 
