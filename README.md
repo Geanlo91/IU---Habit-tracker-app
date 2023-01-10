@@ -1,10 +1,10 @@
-# Habit tracker app backend - IU
+# Habit tracker app back-end - IU
 
 Users create and track habits to break or learn to continue.
 
 ##  What is it ?
 
-Backend coding for a Habit tracking app
+Back-end coding for a Habit tracking app
 
 ## Installation
 
