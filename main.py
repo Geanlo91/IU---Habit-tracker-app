@@ -5,8 +5,9 @@ from analyse import *
 from tabulate import tabulate
 import sqlite3
 import click
+from testdb import *
 
-#Creating the main menu
+#Creating the main menu2
 def main ():
     '''
     Main menu containing the functions of the app and its submenus. 
@@ -31,6 +32,7 @@ def main ():
         print("Do you want to see examples of habits? (Y/N)")
         choice = input("Enter your choice: (Y/N) ").upper()
         if choice == "Y":
+            testdb = get_test_db()
             print(tabulate(prehabits, headers=["Habit_name", "created", "start_date", "Periodicity", "Run_duration", "Checked", "streak", "longest_streak", "completed"], tablefmt='psql'))
         elif choice == "N":
             pass
